@@ -8,7 +8,9 @@ function Sidebar() {
             <div className="logo">
                 <img src="/sidebar/logo-tropa-dashboard.png" alt="" />
             </div>
+
             <InteractionArea>
+
                 <div className="pagination">
                     <div className="title"><text>MENU</text></div>
                     <ButtonPagination src={'/sidebar/buttonPagination-dashboard.png'} alt={'dashboard'} title={'Dashboard'} />
@@ -16,6 +18,7 @@ function Sidebar() {
                     <ButtonPagination src={'/sidebar/buttonPagination-equipes.png'} alt={'equipes'} title={'Equipes'} />
                     <ButtonPagination src={'/sidebar/buttonPagination-inscricoes.png'} alt={'inscricoes'} title={'Inscrições'} />
                 </div>
+
                 <div className="userMenu">
                     <img className='linhaDivisoria' src="/sidebar/linha-sidebar.png" />
                     <div className="dataUser">
@@ -29,6 +32,7 @@ function Sidebar() {
                     <ButtonMenuUser src={'/sidebar/buttonMenuUser-dados.png'} alt={'Alterar Dados'} title={'Alterar Dados'} />
                     <ButtonMenuUser src={'/sidebar/buttonMenuUser-sair.png'} alt={'Sair'} title={'Sair'} />
                 </div>
+
             </InteractionArea>
         </LeftMenu>
     )

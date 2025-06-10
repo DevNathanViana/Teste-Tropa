@@ -17,6 +17,7 @@ function LoginUser() {
   return (
     <BaseBackground>
       <MainContent className={fade}>
+
         <AreaLogin>
           <ContentLogin>
             <div className="logo">
@@ -25,6 +26,7 @@ function LoginUser() {
             <div className="text">
               <text>Bem-vindo de volta</text><br /><span>Entre com sua conta para acessar o painel.</span>
             </div>
+
             <Inputs>
               <div className="input">
                 <label htmlFor="email">E-mail</label>
@@ -39,12 +41,15 @@ function LoginUser() {
               </div>
               <button onClick={() => redirect()}>Enviar</button>
             </Inputs>
+
           </ContentLogin>
         </AreaLogin>
+
         <ImagemLogin>
           <img src="/login/imagem-login.png" alt="" />
           <div></div>
         </ImagemLogin>
+
       </MainContent>
     </BaseBackground>
   )

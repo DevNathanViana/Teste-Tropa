@@ -1,6 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
-import LoginUser from '../Login'
-import UserArea from '../UserArea'
+import LoginUser from '../pages/Login'
+import UserArea from '../pages/UserArea'
 
 function Router() {
     return (
